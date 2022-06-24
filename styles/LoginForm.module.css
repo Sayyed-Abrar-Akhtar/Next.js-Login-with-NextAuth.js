@@ -1,0 +1,34 @@
+.container {
+  width: 100%;
+  background-color: white;
+  padding: 2rem;
+}
+
+.title {
+  text-transform: uppercase;
+  color: #153b8d;
+  text-align: center;
+}
+
+.message {
+  color: red;
+  text-transform: capitalize;
+}
+
+.message_hidden {
+  opacity: 0;
+}
+
+@media screen and (min-width: 600px) {
+  .container {
+    width: 60%;
+    border-radius: 4px;
+  }
+}
+
+@media screen and (min-width: 900px) {
+  .container {
+    width: 50%;
+    border-radius: 4px;
+  }
+}
